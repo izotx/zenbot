@@ -4,7 +4,9 @@ To fill the historical data run the command:
 
 `./zenbot launch map --backfill reduce server run --config 'path to config'`
 
-To see live data on the screen change the config_defaults.js and set 
+To see live data on the screen change the config_defaults.js and set to true 
+  c.trade_log = true
+    c.trade_reducer_log = true
 
 
 
@@ -81,13 +83,7 @@ npm install
 npm link
 ```
 
-(optional) Install historical data for GDAX BTC/USD, ETH/BTC, and ETH/USD. **This may overwrite data in your existing `ticks` collection, so be careful!**
 
-```
-wget https://s8f.org/dl/zenbrain.tar.gz
-tar -xf zenbrain.tar.gz
-mongorestore
-```
 
 ### 3. Copy `config_sample.js` to `config.js` and edit with API keys, database credentials, trade logic, etc.
 
