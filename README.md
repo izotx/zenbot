@@ -1,5 +1,14 @@
 ![zenbot logo](https://rawgit.com/carlos8f/zenbot/master/assets/zenbot_3_logo.png)
 
+To fill the historical data run the command:
+
+`./zenbot launch map --backfill reduce server run --config 'path to config'`
+
+To see live data on the screen change the config_defaults.js and set 
+
+
+
+
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/carlos8f/zenbot/master?t=moon)
 
 > “To follow the path, look to the master, follow the master, walk with the master, see through the master, become the master.”
